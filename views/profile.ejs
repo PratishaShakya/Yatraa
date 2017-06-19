@@ -1,0 +1,41 @@
+<html>
+<head><title>my profile</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body bgcolor="lightgray">
+<table border=1 align="center" width=400 height=300 class='table table-striped'>
+<tr>
+<td>
+<th>Profile picture</th>
+<td><iframe src="https://www.facebook.com/photo.php?fbid=788924157928883&l=407c4e76f5"></iframe> ><td>
+</tr>
+<tr>
+<td>
+<th>Name</th>
+<td><%=person.name%></td>
+</tr>
+<tr>
+<td>
+<th>Course</th>
+<td><%=person.course%><td>
+</tr>
+<tr>
+<td>
+<th>Semester</th>
+<td><%=person.semester%><td>
+</tr>
+<tr>
+<td>
+<th>Contact no.</th>
+<td><%=person.contact%><td>
+</tr>
+<tr>
+<td>
+<th>Facebook link</th>
+<td><a href="<%=person.fblink%>">Facebook</a><td>
+</tr>
+</table>
+</body>
+</html>
